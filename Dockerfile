@@ -17,7 +17,7 @@ COPY . .
 RUN yarn build
 
 # Izloži portove 3000, 4000, 5000, 8080, 8081, 8000, 10000
-EXPOSE 3000 4000 5000 8080 8081 8000 10000
+EXPOSE 10000
 
 # Pokreni aplikaciju
 CMD ["yarn", "start"]
