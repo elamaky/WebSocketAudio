@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "dist/wsaudio.js",
+  "scripts": {
+    "start": "node dist/wsaudio.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/wsaudio.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
