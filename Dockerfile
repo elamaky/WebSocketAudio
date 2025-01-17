@@ -16,8 +16,8 @@ COPY . .
 # Kompajliraj TypeScript kod
 RUN yarn build
 
-# Izloži port na kojem aplikacija radi
-EXPOSE 3000
+# Izloži portove na kojima aplikacija može raditi
+EXPOSE 3000 4000 5000 8080 8081
 
 # Pokreni aplikaciju
 CMD ["yarn", "start"]
