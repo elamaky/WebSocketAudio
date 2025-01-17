@@ -20,7 +20,8 @@
 
     <script type="text/javascript">
 
-        var wsAudio = new WsAudio(document.getElementById('audio'), 'ws://localhost:5001/stream', 'dist/worker.js');
+       var wsAudio = new WsAudio(document.getElementById('audio'), 'wss://websocketaudio.onrender.com/stream', 'dist/worker.js');
+
 
         wsAudio.onUpdate = function(currentTime, bufferedTime) {
 
